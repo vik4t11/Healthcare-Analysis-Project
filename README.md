@@ -40,6 +40,10 @@ The hypothesis for this healthcare analysis are listed as a series of questions:
 
 * Are insurance charges affected by regional factors?
 
+* How do charges differ between genders in correlation with number of children and charges? 
+
+* Is there a trend for higher premiums on insurance charges for women who experience increased childbirth?
+
 A range of charts are visualised by importing libiraries Plotly, Seaborn and Matplotlib to validate the questions raised in the hypothesis. 
 
 
