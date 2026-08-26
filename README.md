@@ -124,19 +124,26 @@ Numpy, Pandas, Seaborn, Matplotlib and Plotly.
 ## Credits
 
 * In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials; however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section into Content and Media, depending on what you include in your project. 
 
 ### Content 
 
-- The text for the Home page was taken from the Wikipedia Article A
-- Instructions on how to implement form validation were taken from a [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+**Data Cleaning** 
+
+https://gist.github.com/Ri-Dearg/61447981a85878945e189b378f95d92c
+https://gist.github.com/mbriscoe/244fab3649ef23da86099d0c5f4a6c81
+https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+https://jacknayem.medium.com/why-every-data-analyst-should-master-df-info-the-most-overlooked-tool-in-pandas-d4e3018e3606
+https://www.geeksforgeeks.org/pandas/pandas-find-duplicate-rows/
+https://stackoverflow.com/questions/22904523/select-rows-with-duplicate-observations-in-pandas
+https://pandas.pydata.org/docs/getting_started/intro_tutorials/03_subset_data.html
+
+**Jupyter Notebook Markdown**
+
+https://stackoverflow.com/questions/35616486/embed-code-for-illustration-in-jupyter
+https://stackoverflow.com/questions/36583502/how-to-force-a-linebreak
+
 
 ### Media
-
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
-
 
 
 ## Acknowledgements (optional)
