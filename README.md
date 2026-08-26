@@ -46,7 +46,6 @@ The hypothesis for this healthcare analysis are listed as a series of questions:
 
 A range of charts are visualised by importing libiraries Plotly, Seaborn and Matplotlib to validate the questions raised in the hypothesis. 
 
-
 ## Project Plan
 
 **Initialise Project Environment**
@@ -66,7 +65,15 @@ A final review of the entire project is considered prior to submitting the healt
 
 ## The rationale to map the business requirements to the Data Visualisations
 
-* List your business requirements and a rationale for mapping them to the Data Visualisations
+The Healthcare Analysis Project is made to meet hypothetical real-world business requirements including: 
+
+* **Data Collection:** Collect raw data to apply Exploratory Data Analysis (EDA).
+
+* **Extract, Transform, Load:** Follow the ETL steps to verify data integrity, intergrate feature engineering for predictive analysis and save a clean dataframe before entering the EDA process. 
+
+* **Exploratory Data Analysis:** Present clean dataframes to communicate insightful visualisations answering questions listed in the hypothesis. 
+
+* **Storytelling:** Tell a story to a broader audience with different levels of understanding in data science and analytics. 
 
 ## Analysis techniques used
 
