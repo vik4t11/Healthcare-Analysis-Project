@@ -49,6 +49,9 @@ A range of charts are visualised by importing libiraries Plotly, Seaborn and Mat
 
 ## Project Plan
 
+**Initialise Project Environment**
+Create a repositry on GitHub to connect with a virtual environment setup on VS Code. Add .gitignore file, folders for data and Jupyter notebooks. Install dependencies required for the ETL and Data Visualisation notebooks code cells to run successfully. Add README.md template including guidance notes provided by Code Institute.   
+
 **Collect Data**
 The dataset required for the healthcare insurance analysis is downloaded as a CSV file from Kaggle. I store the data inside a folder which is also accessible in my GitHub repositry.
 
