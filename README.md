@@ -30,7 +30,7 @@ The requirements in this healthcare insurance analysis is to review and prepare 
 
 ## Hypothesis and how to validate?
 
-The hypothesis for this healthcare analysis is listed as a series of questions:
+The hypothesis for this healthcare analysis are listed as a series of questions:
 
 * How does smoking status affect the minimum, average and maximum insurance charges?
 
@@ -45,9 +45,17 @@ A range of charts are visualised by importing libiraries Plotly, Seaborn and Mat
 
 ## Project Plan
 
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+**Collect Data**
+The dataset required for the healthcare insurance analysis is downloaded as a CSV file from Kaggle. I store the data inside a folder which is also accessible in my GitHub repositry.
+
+**Extract, Transform and Load (ETL)**
+Data is summarised using Pandas to load and review the dataframe. Missing or unique values and duplications are evaluated to enhance integrity of the dataset prior to drawing insights from the data. 
+
+**Data Visualisation**
+A clean dataframe is loaded to apply different methods for visualising dataset using Plotly, Seaborn and Matplotlib. Markdowns and psydocode is recorded throughout jupyter notebook to highlight the steps toward visualisation. 
+
+**Review Project**
+A final review of the entire project is considered prior to submitting the healthcare insurance analysis. 
 
 ## The rationale to map the business requirements to the Data Visualisations
 
