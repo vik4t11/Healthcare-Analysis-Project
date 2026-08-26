@@ -4,7 +4,7 @@
 
 ## Dataset Content
 
-* This dataset contains information on the relationship between personal attributes (age, gender, BMI, family size, smoking habits), geographic factors, and their impact on medical insurance charges. It can be used to study how these features influence insurance costs and develop predictive models for estimating healthcare expenses.
+This dataset contains information on the relationship between personal attributes (age, gender, BMI, family size, smoking habits), geographic factors, and their impact on medical insurance charges. It can be used to study how these features influence insurance costs and develop predictive models for estimating healthcare expenses.
 
 > Age: The insured person's age.
 
@@ -26,11 +26,22 @@ https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance
 
 ## Business Requirements
 
-* The requirements in this healthcare insurance analysis is to review and prepare raw data prior to analysis. Once the ETL pipeline is complete my goal is to apply the EDA process and present connections between personal attributes or regional factors affecting insurance charges. As a result, the business will have access to an insightful resource contributing toward data driven decision making.
+The requirements in this healthcare insurance analysis is to review and prepare raw data prior to analysis. Once the ETL pipeline is complete my goal is to apply the EDA process and present connections between personal attributes or regional factors affecting insurance charges. As a result, the business will have access to an insightful resource contributing toward data driven decision making.
 
 ## Hypothesis and how to validate?
 
-* List here your project hypothesis(es) and how you envision validating it (them) 
+The hypothesis for this healthcare analysis is listed as a series of questions:
+
+* How does smoking status affect the minimum, average and maximum insurance charges?
+
+* What is the correlation between smoking status, age or number of children on insurance charges?
+
+* Can BMI affect insurance charges?
+
+* Are insurance charges affected by regional factors?
+
+A range of charts are visualised by importing libiraries Plotly, Seaborn and Matplotlib to validate the questions raised in the hypothesis. 
+
 
 ## Project Plan
 
