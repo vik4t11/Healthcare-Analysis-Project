@@ -1,7 +1,6 @@
 # Healthcare Analysis Project
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
-
+**Healthcare Analysis Project** reflects my commitment to raising awareness on risk factors that could affect economic, social and physical wellbeing. The purpose of this project is to provide a healthcare insurance business with an exploratory data analysis (EDA), based on a clean data frame I extract, transform and load (ETL) as part of the data preperation to enhance the integrity of insights drawn from the dataset. 
 
 ## Dataset Content
 
