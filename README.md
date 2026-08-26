@@ -90,6 +90,14 @@ However, it is important to acknowledge the dataset is simulated and thus cannot
 
 Economic status, education, mental health and other factors which could potentially also influence insurance charges are not included in this dataset. 
 
+## Artificial intelligence disclosure 
+
+AI is a tool I refer to as a semantic calculator I approach with a Socratic methodology. In other words, I form the questions to ask for me to meet the business requirements and complete tasks more efficiently. 
+
+I preserve my agency over artificial intelligence by critically reading and challenging output to interogate the AI rationale. Ultimately I have ensured this Healthcare Analysis Project returns to my instrinsic motivations and subjective discretion. 
+
+I consistently cross reference solutions for code, understanding keywords and propositions to optimise projects made by Chat GPT, Gemini and CoPilot with official documentation, LMS and websites discovered through the Google search engine. 
+
 ## Dashboard Design (optional)
 
 * Feel free to delete this section if this is a data visualisation only (unit 1 or 2) project submission.
