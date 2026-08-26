@@ -26,7 +26,7 @@ https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance
 
 ## Business Requirements
 
-* Describe your business requirements
+* The requirements in this healthcare insurance analysis is to review and prepare raw data prior to analysis. Once the ETL pipeline is complete my goal is to apply the EDA process and present connections between personal attributes or regional factors affecting insurance charges. As a result, the business will have access to an insightful resource contributing toward data driven decision making.
 
 ## Hypothesis and how to validate?
 
