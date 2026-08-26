@@ -68,11 +68,13 @@ A final review of the entire project is considered prior to submitting the healt
 * Did the data limit you, and did you use an alternative approach to meet these challenges?
 * How did you use generative AI tools to help with ideation, design thinking and code optimisation?
 
-## Ethical considerations (optional)
+## Ethical considerations
 
-* Feel free to delete this section if this is a data visualisation only (unit 1 or 2) project submission.
-* Were there any data privacy, bias or fairness issues with the data?
-* How did you overcome any legal or societal issues?
+The dataset does not breach GDPR because there is no directly identifiable personal information visible that would identify any individual. 
+
+However, it is important to acknowledge the dataset is simulated and thus cannot be liable to inform real-world decision making within a healthcare insurance business. Using this report could put potentially viable customers at risk to be excluded from accessing healthcare insurance or being charged higher premiums as a result of the insights presented in this hypothetical analysis.
+
+Economic status, education, mental health and other factors which could potentially also influence insurance charges are not included in this dataset. 
 
 ## Dashboard Design (optional)
 
