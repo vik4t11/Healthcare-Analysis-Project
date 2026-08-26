@@ -97,7 +97,7 @@ Economic status, education, mental health and other factors which could potentia
 
 ## Main Data Analysis Libraries
 
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+Numpy, Pandas, Seaborn, Matplotlib and Plotly. 
 
 ## Credits
 
