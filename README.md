@@ -1,6 +1,6 @@
 # Healthcare Analysis Project
 
-**Healthcare Analysis Project** reflects my commitment to raising awareness on risk factors that could affect economic, social and physical wellbeing. The purpose of this project is to provide a healthcare insurance business with an exploratory data analysis (EDA), based on a clean data frame I extract, transform and load (ETL) as part of the data preperation to enhance the integrity of insights drawn from the dataset. 
+**Healthcare Analysis Project** reflects my commitment to raising awareness of risk factors that could affect economic, social and physical wellbeing. The purpose of this project is to provide a healthcare insurance business with an Exploratory Data Analysis (EDA), based on a clean DataFrame I extract, transform and load (ETL) as part of the data preparation process to improve the integrity of insights drawn from the dataset.
 
 ## Dataset Content
 
@@ -26,25 +26,21 @@ https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance
 
 ## Business Requirements
 
-The requirements in this healthcare insurance analysis is to review and prepare raw data prior to analysis. Once the ETL pipeline is complete my goal is to apply the EDA process and present connections between personal attributes or regional factors affecting insurance charges. As a result, the business will have access to an insightful resource contributing toward data driven decision making.
+The requirements for this healthcare insurance analysis are to review and prepare raw data prior to analysis. Once the ETL pipeline is complete, my goal is to apply the EDA process and present relationships between personal attributes and insurance charges. As a result, the business will have access to an insightful resource contributing towards data-driven decision making.
 
 ## Hypothesis and how to validate?
 
-The hypothesis for this healthcare analysis are listed as a series of questions:
+The hypothesis for this healthcare analysis is explored through a series of questions:
+
+* What is the distribution quality in the dataset?
 
 * How does smoking status affect the minimum, average and maximum insurance charges?
 
-* What is the correlation between smoking status, age or number of children on insurance charges?
+* What is the correlation between smoking status, age and insurance charges?
 
-* Can BMI affect insurance charges?
+A range of charts are visualised by importing Plotly, Seaborn and Matplotlib to validate the questions raised in the hypothesis.
 
-* Are insurance charges affected by regional factors?
-
-* How do charges differ between genders in correlation with number of children and charges? 
-
-* Is there a trend for higher premiums on insurance charges for women who experience increased childbirth?
-
-A range of charts are visualised by importing libiraries Plotly, Seaborn and Matplotlib to validate the questions raised in the hypothesis. 
+**NOTE:** The original analysis plan was reduced due to time restrictions and underestimating the time required to manage the EDA process. In hindsight, more time should have been allocated to the EDA stage or tasks organised more effectively. The analysis was therefore focused on the questions considered most relevant to the business requirements.
 
 ## Project Plan
 
@@ -58,29 +54,30 @@ The dataset required for the healthcare insurance analysis is downloaded as a CS
 Data is summarised using Pandas to load and review the dataframe. Missing or unique values and duplications are evaluated to enhance integrity of the dataset prior to drawing insights from the data. 
 
 **Data Visualisation**
-A clean dataframe is loaded to apply different methods for visualising dataset using Plotly, Seaborn and Matplotlib. Markdowns and psydocode is recorded throughout jupyter notebook to highlight the steps toward visualisation. 
+The clean DataFrame and smokers charges DataFrame are loaded to apply different visualisation methods using Plotly, Seaborn and Matplotlib. Markdown and pseudocode are recorded throughout the Jupyter notebook to highlight the steps towards visualisation and interpretation.
 
 **Review Project**
 A final review of the entire project is considered prior to submitting the healthcare insurance analysis. 
 
 ## The rationale to map the business requirements to the Data Visualisations
 
-The Healthcare Analysis Project is made to meet hypothetical real-world business requirements including: 
+**Extract, Transform, Load:** Follow the ETL steps to verify data integrity, integrate feature engineering for predictive analysis and save clean DataFrames before entering the EDA process.
 
-* **Data Collection:** Collect raw data to apply Exploratory Data Analysis (EDA).
-
-* **Extract, Transform, Load:** Follow the ETL steps to verify data integrity, intergrate feature engineering for predictive analysis and save a clean dataframe before entering the EDA process. 
-
-* **Exploratory Data Analysis:** Present clean dataframes to communicate insightful visualisations answering questions listed in the hypothesis. 
-
-* **Storytelling:** Tell a story to a broader audience with different levels of understanding in data science and analytics. 
+**Exploratory Data Analysis:** Present clean DataFrames to communicate meaningful visualisations answering questions listed in the hypothesis.
 
 ## Analysis techniques used
 
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques? Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+**Descriptive:** Bar charts and boxplots were used to explore the distribution of categorical and numerical attributes.
+
+**Correlation:** Scatterplots were used to explore relationships between age, smoking status and insurance charges.
+
+**Predictive:** An engineered DataFrame containing minimum, mean and maximum insurance charges by smoker status was visualised using Plotly to estimate differences in charges.
+
+The data analysis techniques were structured into descriptive, correlation and predictive analysis. Each section includes an explanation of the technique used and an interpretation of the results.
+
+The limited attributes reduced the ability to fairly predict insurance charges. However, the available data provided meaningful insights into relationships between the attributes.
+
+GitHub Copilot was used within the IDE to generate and fix code and improve code readability.
 
 ## Ethical considerations
 
@@ -98,24 +95,14 @@ I preserve my agency over artificial intelligence by critically reading and chal
 
 I consistently cross reference solutions for code, understanding keywords and propositions to optimise projects made by Chat GPT, Gemini and CoPilot with official documentation, LMS and websites discovered through the Google search engine. 
 
-## Dashboard Design (optional)
-
-* Feel free to delete this section if this is a data visualisation only (unit 1 or 2) project submission.
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during project development, you may revisit your dashboard plan to update a feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later you used another plot type).
-* How were data insights communicated to technical and non-technical audiences?
-* Explain how the dashboard was designed to communicate complex data insights to different audiences. 
-
-## Unfixed Bugs
-
-* Please list any unfixed bugs and explain why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
-
 ## Development Roadmap
 
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+A challenge I faced was managing the scope of the EDA process within the available time. I underestimated the time required to develop and interpret the visualisations, which resulted in the original hypothesis being reduced. In hindsight, I would have allocated more time to the EDA process or organised the tasks more effectively.
+
+Feature engineering is limited in this project and could be expanded on in a future project. Whilst transforming the DataFrame in the ETL process I limit the potential to develop machine learning features which would improve the quality of the predictive analysis included in the EDA notebook. 
+
+Additionally, I recognise a lack of confidence in choosing appropriate charts to visualise data meaningfully. My experience in this project has prompted me to learn (1) the usage for different charts to communicate attributes effectively and (2) interpreting results in the charts. 
+ 
 
 ## Main Data Analysis Libraries
 
@@ -123,11 +110,7 @@ Numpy, Pandas, Seaborn, Matplotlib and Plotly.
 
 ## Credits
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials; however, it is important to be very specific about these sources to avoid plagiarism. 
-
-### Content 
-
-**Data Cleaning** 
+#### Extract, Transform, Load 
 
 https://gist.github.com/Ri-Dearg/61447981a85878945e189b378f95d92c
 https://gist.github.com/mbriscoe/244fab3649ef23da86099d0c5f4a6c81
@@ -136,16 +119,51 @@ https://jacknayem.medium.com/why-every-data-analyst-should-master-df-info-the-mo
 https://www.geeksforgeeks.org/pandas/pandas-find-duplicate-rows/
 https://stackoverflow.com/questions/22904523/select-rows-with-duplicate-observations-in-pandas
 https://pandas.pydata.org/docs/getting_started/intro_tutorials/03_subset_data.html
+https://www.geeksforgeeks.org/python/grouping-categorical-variables-in-pandas-dataframe/
+https://github.com/ashishpatel26/Amazing-Feature-Engineering/blob/master/A%20Short%20Guide%20for%20Feature%20Engineering%20and%20Feature%20Selection.md
+https://builtin.com/articles/feature-engineering
+https://www.bhf.org.uk/informationsupport/heart-matters-magazine/medical/tests/bmi-chart
 
-**Jupyter Notebook Markdown**
+#### Data Visualisation 
+
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html 
+https://seaborn.pydata.org/generated/seaborn.countplot.html
+https://seaborn.pydata.org/generated/seaborn.scatterplot.html
+https://plotly.com/python/bar-charts/
+
+#### Jupyter Notebook Markdown
 
 https://stackoverflow.com/questions/35616486/embed-code-for-illustration-in-jupyter
 https://stackoverflow.com/questions/36583502/how-to-force-a-linebreak
 
+#### README
 
-### Media
+https://github.com/Code-Institute-Solutions/da-README-template
+https://github.com/petedanielsmith/HealthcareInsuranceDataAnalyticsProject/tree/main
 
+#### Proofreading 
 
-## Acknowledgements (optional)
+ChatGPT
 
-* Thank the people who supported this project.
+Preserve your tone and style
+Keep the wording minimal and concise
+Correct grammar, spelling and punctuation
+Improve clarity and technical accuracy where needed
+Maintain a coherent ETL storyline from data loading through transformation and export
+Preserve your existing Markdown and <code> formatting
+
+#### Acknowledgements
+
+Thank you to Mike at Code Institute for the fascinating dialogue around the future of AI and Data Visualisation, which motivated me to apply for this opportunity.
+
+Thank you to Laura at Code Institute for believing in my intelligence to comprehend the information on the bootcamp and participate meaningfully in my cohort.
+
+Thank you to Emma for teaching me there is, in fact, method in the madness.
+
+Thank you to Rory for the patient and articulate masterclasses that consolidated the LMS content.
+
+Thank you to my friend Patsy for being my existential coach and encouraging me to show up every day.
+
+I’m grateful to the Ivkos for accommodating a hard reset in my search for stability and empowering me to reach my fullest potential.
+
+I acknowledge and appreciate the use of ChatGPT, Gemini and GitHub Copilot throughout this project.
