@@ -28,7 +28,7 @@ https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance
 
 The requirements for this healthcare insurance analysis are to review and prepare raw data prior to analysis. Once the ETL pipeline is complete, my goal is to apply the EDA process and present relationships between personal attributes and insurance charges. As a result, the business will have access to an insightful resource contributing towards data-driven decision making.
 
-## Hypothesis and how to validate?
+## Hypothesis and How to Validate?
 
 The hypothesis for this healthcare analysis is explored through a series of questions:
 
@@ -65,7 +65,7 @@ A final review of the entire project is considered prior to submitting the healt
 
 **Exploratory Data Analysis:** Present clean DataFrames to communicate meaningful visualisations answering questions listed in the hypothesis.
 
-## Analysis techniques used
+## Analysis Techniques Used
 
 **Descriptive:** Bar charts and boxplots were used to explore the distribution of categorical and numerical attributes.
 
@@ -79,7 +79,7 @@ The limited attributes reduced the ability to fairly predict insurance charges. 
 
 GitHub Copilot was used within the IDE to generate and fix code and improve code readability.
 
-## Ethical considerations
+## Ethical Considerations
 
 The dataset does not breach GDPR because there is no directly identifiable personal information visible that would identify any individual. 
 
@@ -87,7 +87,7 @@ However, it is important to acknowledge the dataset is simulated and thus cannot
 
 Economic status, education, mental health and other factors which could potentially also influence insurance charges are not included in this dataset. 
 
-## Artificial intelligence disclosure 
+## Artificial Intelligence Disclosure 
 
 AI is a tool I refer to as a semantic calculator I approach with a Socratic methodology. In other words, I form the questions to ask for me to meet the business requirements and complete tasks more efficiently. 
 
@@ -150,7 +150,7 @@ Keep the wording minimal and concise
 Correct grammar, spelling and punctuation
 Improve clarity and technical accuracy where needed
 Maintain a coherent ETL storyline from data loading through transformation and export
-Preserve your existing Markdown and <code> formatting
+Preserve your existing Markdown and formatting
 
 #### Acknowledgements
 
