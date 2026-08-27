@@ -152,7 +152,7 @@ Improve clarity and technical accuracy where needed
 Maintain a coherent ETL storyline from data loading through transformation and export
 Preserve your existing Markdown and formatting
 
-#### Acknowledgements
+## Acknowledgements
 
 Thank you to Mike at Code Institute for the fascinating dialogue around the future of AI and Data Visualisation, which motivated me to apply for this opportunity.
 
